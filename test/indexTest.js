@@ -62,6 +62,7 @@ describe('index.js', () => {
         'Sarah Hucklebee',
         'bobby ridge'
       ];
+      
       let spy = sinon.spy(Array.prototype, 'map');
       nameToAttributes(drivers);
       expect(
